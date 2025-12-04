@@ -1,54 +1,91 @@
-# Smart_Contracts
+# Smart Contracts Deployment Activity
+
 Deploy smart contracts using MetaMask and demonstrate interactions.
 
-📌 Smart Contracts Included
-Contract File	Purpose
-SimpleStorage.sol	Demonstrates Set & Get operations on blockchain
-Ownable.sol	Implements Ownership & Access Control using modifiers
-SimpleToken.sol	A Simple ERC-20 like Token with transfers
+---
 
-All contracts were compiled & deployed using Remix IDE and executed via MetaMask.
-📁 Location:
-/contracts
+## 📌 Smart Contracts Included
 
-🔧 Tools & Technologies Used
-Tool	Purpose
-Solidity	Smart contract programming language
-Remix IDE	Smart contract development & deployment
-MetaMask	Wallet and blockchain transaction signing
-Ganache / Sepolia	Ethereum network for deployment & testing
-GitHub	Version control and documentation
+| Contract File | Purpose |
+|--------------|---------|
+| `SimpleStorage.sol` | Demonstrates Set & Get operations on blockchain |
+| `Ownable.sol` | Implements Ownership & Access Control using modifiers |
+| `SimpleToken.sol` | A Simple ERC-20 like Token with transfer support |
 
-🚀 Deployment Steps (Demonstration)
-1️⃣ Open Remix IDE → Create Solidity Files
-2️⃣ Compile using Solidity Compiler 0.8.x
-3️⃣ Deployment via MetaMask
+📁 Location: `contracts/`
 
-Environment: Injected Provider – MetaMask
+---
 
-Connect to Sepolia or Ganache
-4️⃣ Confirm deployment transaction in MetaMask
-5️⃣ Contract deployed successfully
-6️⃣ Execute contract functions:
+## 🔧 Tools & Technologies Used
 
-Read operations (free)
+| Tool | Purpose |
+|------|---------|
+| Solidity | Smart contract programming language |
+| Remix IDE | Contract development & deployment |
+| MetaMask | Wallet & transaction confirmation |
+| Ganache / Sepolia | Blockchain network for testing |
+| GitHub | Version control & documentation |
 
-Write operations (require gas)
+---
 
-🧪 Execution Results
-Contract	Demo
-SimpleStorage	setNumber(10) → getNumber() returns 10
-Ownable	onlyOwnerCanAccess() works only for deployer
-SimpleToken	Token transferred from Account 1 → Account 2 successfully
+## 🚀 Deployment Steps (Demonstration)
 
-All transaction logs confirmed in:
-✔ MetaMask Activity
-✔ Ganache UI / Sepolia Etherscan
+1️⃣ Open **Remix IDE** → Create Solidity contract files  
+2️⃣ **Compile** using Solidity Compiler `0.8.x`  
+3️⃣ Deployment using **MetaMask**  
+   - Environment: *Injected Provider – MetaMask*  
+4️⃣ Connect to **Sepolia** or **Ganache**  
+5️⃣ Confirm deployment in MetaMask  
+6️⃣ Execute smart contract functions
+
+✔ Read operations are free  
+✔ Write operations require gas (MetaMask confirmation)
+
+---
+
+## 🧪 Execution Results
+
+| Contract | Demo Output |
+|---------|-------------|
+| SimpleStorage | `setNumber(10)` → `getNumber()` returns **10** |
+| Ownable | `onlyOwnerCanAccess()` works only for deployer |
+| SimpleToken | Tokens successfully transferred from Account 1 → Account 2 |
+
+⛓ All transactions confirmed using:
+- MetaMask Activity
+- Ganache UI / Sepolia Etherscan
+
+---
+
+## 📸 Screenshots
 
 Screenshots showing compilation and deployment:
-📂 /screenshots/
 
-File	Description
-simple_storage_contract.jpeg
-ownable_contract.jpeg	
-simple_token_contract.jpeg	
+📂 Folder: `screenshots/`
+
+| File Name | Description |
+|----------|-------------|
+| `simple_storage_contract.jpg` | Smart contract code |
+| `ownable_contract.jpg` | Smart contract code |
+| `simple_token_contract.jpg` | Smart contract code |
+
+---
+
+## 👤 Author
+
+| Detail | Information |
+|--------|-------------|
+| Name | Ayeesha Bepari |
+| USN | __________ |
+| Semester | 6th Sem AIML |
+| College | SDM College of Engineering & Technology, Dharwad |
+
+---
+
+## ✔ Submission Status
+
+✔ Contracts deployed successfully  
+✔ Demo ready for class  
+✔ Repository link submitted  
+
+---
