@@ -45,7 +45,6 @@ All transaction logs confirmed in:
 ✔ MetaMask Activity
 ✔ Ganache UI / Sepolia Etherscan
 
-
 Screenshots showing compilation and deployment:
 📂 /screenshots/
 
