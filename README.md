@@ -9,7 +9,7 @@ SimpleToken.sol	A Simple ERC-20 like Token with transfers
 
 All contracts were compiled & deployed using Remix IDE and executed via MetaMask.
 📁 Location:
-/contracts/
+/contracts
 
 🔧 Tools & Technologies Used
 Tool	Purpose
