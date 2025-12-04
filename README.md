@@ -69,23 +69,3 @@ Screenshots showing compilation and deployment:
 | `ownable_contract.jpg` | Smart contract code |
 | `simple_token_contract.jpg` | Smart contract code |
 
----
-
-## 👤 Author
-
-| Detail | Information |
-|--------|-------------|
-| Name | Ayeesha Bepari |
-| USN | __________ |
-| Semester | 6th Sem AIML |
-| College | SDM College of Engineering & Technology, Dharwad |
-
----
-
-## ✔ Submission Status
-
-✔ Contracts deployed successfully  
-✔ Demo ready for class  
-✔ Repository link submitted  
-
----
